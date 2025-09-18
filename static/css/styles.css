@@ -1,86 +1,56 @@
+/* Fondo general */
 body {
+    background-color: #f4f6f9; /* gris clarito */
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #395558, #287c97, #1d546b);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
+    padding: 20px;
+    color: #333;
 }
 
+/* Título */
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    background: linear-gradient(90deg, #0dd1b0, #30d6e2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.intro {
-    max-width: 900px;
-    text-align: justify;
-    font-size: 1.2em;
-    margin-bottom: 40px;
-    line-height: 1.6;
-}
-
-.table-container {
-    width: 90%;
-    max-width: 800px;
-    border-collapse: collapse;
-}
-
-.row {
-    background: rgba(18, 163, 103, 0.05);
-    border: 2px solid rgb(80, 241, 201);
-    border-radius: 12px;
-    margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 0 0 15px rgba(13, 255, 0, 0.5);
-}
-
-.cell {
-    font-size: 1.6em;
-    font-weight: bold;
-    color: #45dffa;
-    text-shadow: 0 0 15px rgb(50, 228, 124);
-    margin-bottom: 15px;
+    color: #2c3e50;
     text-align: center;
-}
-
-.sub-row {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    align-items: center;
-    gap: 10px;
     margin-bottom: 10px;
 }
 
-.letter {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #0f6cc4;
-    text-shadow: 0 0 10px rgba(27, 44, 201, 0.7);
-    text-align: center;
+/* Subtítulo */
+h2 {
+    color: #34495e;
+    margin-top: 30px;
 }
 
-.input-box {
-    background: rgb(0, 0, 0);
-    border: 2px solid #24d6cd;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 1em;
-    color: #fff;
-    width: 100%;
-    box-sizing: border-box;
-    outline: none;
+/* Texto principal */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Inputs */
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 220px;
     transition: 0.3s;
 }
 
-.input-box:focus {
-    border-color: #45daee;
-    box-shadow: 0 0 15px rgba(38, 218, 250, 0.7);
+/* Efecto al escribir */
+input[type="text"]:focus {
+    border-color: #2ecc71;
+    outline: none;
+    box-shadow: 0px 0px 5px #2ecc71;
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
