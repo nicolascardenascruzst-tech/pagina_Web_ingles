@@ -8,28 +8,40 @@ body {
     align-items: center;
     padding: 30px;
 }
+
 h1 {
     font-size: 2.5em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     background: linear-gradient(90deg, #0dd1b0, #30d6e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.intro {
+    max-width: 900px;
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
 .table-container {
     width: 90%;
     max-width: 800px;
     border-collapse: collapse;
 }
+
 .row {
     background: rgba(18, 163, 103, 0.05);
     border: 2px solid rgb(80, 241, 201);
     border-radius: 12px;
     margin-bottom: 20px;
     padding: 15px;
-    box-shadow: 0 0 15px rgba(13, 255, 0, 0.854));
+    box-shadow: 0 0 15px rgba(13, 255, 0, 0.5);
 }
+
 .cell {
     font-size: 1.6em;
     font-weight: bold;
@@ -38,6 +50,7 @@ h1 {
     margin-bottom: 15px;
     text-align: center;
 }
+
 .sub-row {
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -45,6 +58,7 @@ h1 {
     gap: 10px;
     margin-bottom: 10px;
 }
+
 .letter {
     font-size: 1.2em;
     font-weight: bold;
@@ -52,6 +66,7 @@ h1 {
     text-shadow: 0 0 10px rgba(27, 44, 201, 0.7);
     text-align: center;
 }
+
 .input-box {
     background: rgb(0, 0, 0);
     border: 2px solid #24d6cd;
@@ -64,6 +79,7 @@ h1 {
     outline: none;
     transition: 0.3s;
 }
+
 .input-box:focus {
     border-color: #45daee;
     box-shadow: 0 0 15px rgba(38, 218, 250, 0.7);
